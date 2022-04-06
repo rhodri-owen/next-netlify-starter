@@ -11,12 +11,24 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
+
+    <a
+      href="javascript:void(
+        window.open(
+          'https://form.jotform.com/220953995402360',
+          'blank',
+          'scrollbars=yes,
+          toolbar=no,
+          width=700,
+          height=500'
+        )
+      )
+    ">
+      Quiz form with a calculated number of correct answers
+    </a>        <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
       </main>
-    <script type="text/javascript" src="https://form.jotform.com/jsform/220953995402360"></script>
       <Footer />
     </div>
   )
